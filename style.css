@@ -1,0 +1,284 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+
+
+}
+header{
+    position: sticky;
+}
+.navbar__s1 img{
+    height:50px;
+    width:200px;
+    padding-left: 50px;
+}
+
+
+.navbar__s2 b{
+    display:flex;
+    padding:5px;  
+   
+}
+.navbar__s2 p{
+    padding:5px;
+
+
+}
+.navbar__s2 P:hover{
+   
+    background-color: rgb(216, 213, 213);
+    color:black;
+    padding:5px;
+    border-radius: 20px;
+ 
+}
+
+
+.navbar__s3 {
+    display:flex;
+    padding: 5px;
+    justify-items: center;
+    
+}
+.navbar__s3 p{
+    padding:5px;
+    font-weight: bolder;
+
+
+}
+
+
+.navbar__s3 button{
+    background-color: black;
+    border-radius: 30px;
+    color:white;
+    width:100px;
+}
+.search h1{
+font-size: 50px;
+ text-align: center;
+    padding-top: 30px;
+}
+.content{
+    display: flex;
+    padding:30px;
+    justify-content: center;
+   
+}
+.content p{
+    padding:10px;
+    font-size: 20px;
+    font-weight: bolder;
+   
+}
+.content p:hover{
+    color:rgb(53, 51, 51);
+    border-bottom: 2px solid black;}
+.bar{
+    border:1px solid black;
+    border-radius: 30px;
+    width:50%;
+    padding:10px;
+    margin-left:370px;
+    margin-top: 40px;
+    display: inline;
+   
+}
+.bar input{
+    border:none;
+    width:50%;
+}
+.bar button{
+    background-color: rgb(112, 231, 112);
+    color:black;
+   padding: 7px;
+    border-radius:30px;
+    border:none;
+}
+.bg{
+    position: relative;
+}
+.bg img{
+    width:80%;
+    height:600px;
+    margin:100px;
+    padding-left: 60px;
+    position: relative;
+   
+}
+.abs{
+    position: absolute;
+    top: 500px;
+    left:200px;
+    color:white;
+}
+.abs button{
+    background-color: white;
+    color:black;
+    padding:10px;
+    border-radius: 30px;
+    border:none;
+    margin-top: 20px;
+}
+.abs img {
+    width:400px;
+    height:400px;
+    position: absolute;
+    left:750px;
+    bottom:170px;
+}
+.head {
+    padding-left:130px;
+    
+}
+.head h2,p{
+    margin:10px;
+}
+.img_container{
+    display: flex;
+    justify-content: center;
+    gap:13px;
+    margin-bottom: 50px;
+
+}
+.imgs{
+    position: relative;
+}
+.imgs img{
+    width:300px;
+    height:300px;
+    border-radius: 20px;
+    
+}
+.imgs img:hover{
+    filter: contrast(200%);
+
+}
+
+.imgs h2{
+    position: absolute;
+    bottom:20px;
+    left:30px;
+    color: white;
+    font-size: 30px;
+}
+.experience{
+    display:flex;
+    gap:15px;
+    justify-content: center;
+}
+.exp img{
+    width:300px;
+    height:300px;
+    border-radius: 20px;
+}
+.exp h3{padding-left: 5px;}
+
+.exp img:hover{
+    transform: translate(-5px,-10px);
+}
+
+.explore{
+    display: flex;
+    justify-content: space-around;
+
+}
+.exps img{
+    width: 400px;
+    height:250px;
+
+}
+.h2{
+    padding: 10px;
+    text-decoration:underline;
+}
+.exps img:hover{
+    filter: brightness(70%);
+}
+.explorecontainer{
+    padding-left: 50px;
+padding-right: 60px;
+background-color: bisque; 
+margin-top: 20px;
+margin-bottom: 20px;  
+}
+.explorecontainer h2{
+    color: brown;
+padding: 10px;
+}
+.destination{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+}
+.dest img{
+    width:300px;
+    height: 250px;
+}
+.dest p{
+    font-size: 30px;
+
+}
+.dest p:hover{
+    color:rgb(5, 5, 5);
+    background-color:bisque;
+    border-radius: 10px;
+    font-weight: bolder;
+    padding: 5px;
+    margin: 10px;
+}
+.cover{
+    position: relative;
+}
+.cover img{
+    width:80%;
+    height:600px;
+    padding:150px;
+    position: relative;
+
+}
+.cov img{
+    width: 200px;
+    height: 200px;
+
+}
+.cov{
+    position: absolute;
+    bottom:250px;
+    left:200px;
+}
+.cov button{
+    background-color: black;
+    color:white;
+    padding:10px;
+}
+.footer{
+    background-color: rgb(195, 187, 187);
+    display: flex;
+    
+}
+.footer__s1{
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.rev{
+    padding:70px;
+}
+.rev i{
+    padding:20px;
+}
+.rev button{
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+    padding:10px;
+}
+.last h1{
+    background-color:rgb(195, 187, 187);
+    padding-left:200px;    
+}
