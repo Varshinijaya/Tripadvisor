@@ -6,16 +6,12 @@
     display:flex;
     justify-content: space-between;
     border-bottom: 1px solid black;
-    position: sticky;
-    top:0;
-    
-
-
-}
-.nav{
-    position: sticky;
+    position:sticky;
     top:0;
     background-color:black;
+
+}
+    
 }
 .navbar__s1 img{
     height:50px;
