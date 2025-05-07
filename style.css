@@ -9,6 +9,8 @@
     position:sticky;
     top:0;
     z-index:10;
+    box-shadow: 0 2px 4px gray;
+    background-color: bisque;
 
 }
 
@@ -16,6 +18,7 @@
     height:50px;
     width:200px;
     padding-left: 50px;
+    margin-top:4px;
 }
 
 
